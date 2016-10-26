@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5675CC1D9B8D83008A02A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5675CB1D9B8D83008A02A2 /* AppDelegate.swift */; };
+		3A5675CF1D9B8D83008A02A2 /* NTPC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A5675CD1D9B8D83008A02A2 /* NTPC.xcdatamodeld */; };
+		3A5675D11D9B8D83008A02A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5675D01D9B8D83008A02A2 /* ViewController.swift */; };
+		3A5675D41D9B8D83008A02A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5675D21D9B8D83008A02A2 /* Main.storyboard */; };
+		3A5675D61D9B8D83008A02A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5675D51D9B8D83008A02A2 /* Images.xcassets */; };
+		3A5675D91D9B8D83008A02A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5675D71D9B8D83008A02A2 /* LaunchScreen.xib */; };
+		3A5675E51D9B8D83008A02A2 /* NTPCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5675E41D9B8D83008A02A2 /* NTPCTests.swift */; };
+		3A65CA5F1DA2678B009D4AAD /* StudentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65CA5E1DA2678B009D4AAD /* StudentLoginViewController.swift */; };
+		3A719DDB1DA3C01900BD1C01 /* EcrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A719DDA1DA3C01900BD1C01 /* EcrViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A5675DF1D9B8D83008A02A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A5675BE1D9B8D83008A02A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A5675C51D9B8D83008A02A2;
+			remoteInfo = NTPC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A5675C61D9B8D83008A02A2 /* NTPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5675CA1D9B8D83008A02A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5675CB1D9B8D83008A02A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A5675CE1D9B8D83008A02A2 /* NTPC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NTPC.xcdatamodel; sourceTree = "<group>"; };
+		3A5675D01D9B8D83008A02A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A5675D31D9B8D83008A02A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A5675D51D9B8D83008A02A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A5675D81D9B8D83008A02A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3A5675DE1D9B8D83008A02A2 /* NTPCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTPCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5675E31D9B8D83008A02A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5675E41D9B8D83008A02A2 /* NTPCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTPCTests.swift; sourceTree = "<group>"; };
+		3A65CA5E1DA2678B009D4AAD /* StudentLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentLoginViewController.swift; sourceTree = "<group>"; };
+		3A719DDA1DA3C01900BD1C01 /* EcrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcrViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A5675C31D9B8D83008A02A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5675DB1D9B8D83008A02A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A5675BD1D9B8D83008A02A2 = {
+			isa = PBXGroup;
+			children = (
+				3A5675C81D9B8D83008A02A2 /* NTPC */,
+				3A5675E11D9B8D83008A02A2 /* NTPCTests */,
+				3A5675C71D9B8D83008A02A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A5675C71D9B8D83008A02A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A5675C61D9B8D83008A02A2 /* NTPC.app */,
+				3A5675DE1D9B8D83008A02A2 /* NTPCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A5675C81D9B8D83008A02A2 /* NTPC */ = {
+			isa = PBXGroup;
+			children = (
+				3A5675CB1D9B8D83008A02A2 /* AppDelegate.swift */,
+				3A5675D01D9B8D83008A02A2 /* ViewController.swift */,
+				3A5675D21D9B8D83008A02A2 /* Main.storyboard */,
+				3A719DDA1DA3C01900BD1C01 /* EcrViewController.swift */,
+				3A65CA5E1DA2678B009D4AAD /* StudentLoginViewController.swift */,
+				3A5675D51D9B8D83008A02A2 /* Images.xcassets */,
+				3A5675D71D9B8D83008A02A2 /* LaunchScreen.xib */,
+				3A5675CD1D9B8D83008A02A2 /* NTPC.xcdatamodeld */,
+				3A5675C91D9B8D83008A02A2 /* Supporting Files */,
+			);
+			path = NTPC;
+			sourceTree = "<group>";
+		};
+		3A5675C91D9B8D83008A02A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A5675CA1D9B8D83008A02A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A5675E11D9B8D83008A02A2 /* NTPCTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A5675E41D9B8D83008A02A2 /* NTPCTests.swift */,
+				3A5675E21D9B8D83008A02A2 /* Supporting Files */,
+			);
+			path = NTPCTests;
+			sourceTree = "<group>";
+		};
+		3A5675E21D9B8D83008A02A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A5675E31D9B8D83008A02A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A5675C51D9B8D83008A02A2 /* NTPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A5675E81D9B8D83008A02A2 /* Build configuration list for PBXNativeTarget "NTPC" */;
+			buildPhases = (
+				3A5675C21D9B8D83008A02A2 /* Sources */,
+				3A5675C31D9B8D83008A02A2 /* Frameworks */,
+				3A5675C41D9B8D83008A02A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTPC;
+			productName = NTPC;
+			productReference = 3A5675C61D9B8D83008A02A2 /* NTPC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A5675DD1D9B8D83008A02A2 /* NTPCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A5675EB1D9B8D83008A02A2 /* Build configuration list for PBXNativeTarget "NTPCTests" */;
+			buildPhases = (
+				3A5675DA1D9B8D83008A02A2 /* Sources */,
+				3A5675DB1D9B8D83008A02A2 /* Frameworks */,
+				3A5675DC1D9B8D83008A02A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A5675E01D9B8D83008A02A2 /* PBXTargetDependency */,
+			);
+			name = NTPCTests;
+			productName = NTPCTests;
+			productReference = 3A5675DE1D9B8D83008A02A2 /* NTPCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A5675BE1D9B8D83008A02A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = harsh;
+				TargetAttributes = {
+					3A5675C51D9B8D83008A02A2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3A5675DD1D9B8D83008A02A2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3A5675C51D9B8D83008A02A2;
+					};
+				};
+			};
+			buildConfigurationList = 3A5675C11D9B8D83008A02A2 /* Build configuration list for PBXProject "NTPC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A5675BD1D9B8D83008A02A2;
+			productRefGroup = 3A5675C71D9B8D83008A02A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A5675C51D9B8D83008A02A2 /* NTPC */,
+				3A5675DD1D9B8D83008A02A2 /* NTPCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A5675C41D9B8D83008A02A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5675D41D9B8D83008A02A2 /* Main.storyboard in Resources */,
+				3A5675D91D9B8D83008A02A2 /* LaunchScreen.xib in Resources */,
+				3A5675D61D9B8D83008A02A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5675DC1D9B8D83008A02A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A5675C21D9B8D83008A02A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65CA5F1DA2678B009D4AAD /* StudentLoginViewController.swift in Sources */,
+				3A5675D11D9B8D83008A02A2 /* ViewController.swift in Sources */,
+				3A719DDB1DA3C01900BD1C01 /* EcrViewController.swift in Sources */,
+				3A5675CF1D9B8D83008A02A2 /* NTPC.xcdatamodeld in Sources */,
+				3A5675CC1D9B8D83008A02A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5675DA1D9B8D83008A02A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5675E51D9B8D83008A02A2 /* NTPCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A5675E01D9B8D83008A02A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A5675C51D9B8D83008A02A2 /* NTPC */;
+			targetProxy = 3A5675DF1D9B8D83008A02A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A5675D21D9B8D83008A02A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5675D31D9B8D83008A02A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A5675D71D9B8D83008A02A2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5675D81D9B8D83008A02A2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A5675E61D9B8D83008A02A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A5675E71D9B8D83008A02A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A5675E91D9B8D83008A02A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTPC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A5675EA1D9B8D83008A02A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTPC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A5675EC1D9B8D83008A02A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NTPCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTPC.app/NTPC";
+			};
+			name = Debug;
+		};
+		3A5675ED1D9B8D83008A02A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NTPCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTPC.app/NTPC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A5675C11D9B8D83008A02A2 /* Build configuration list for PBXProject "NTPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5675E61D9B8D83008A02A2 /* Debug */,
+				3A5675E71D9B8D83008A02A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A5675E81D9B8D83008A02A2 /* Build configuration list for PBXNativeTarget "NTPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5675E91D9B8D83008A02A2 /* Debug */,
+				3A5675EA1D9B8D83008A02A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A5675EB1D9B8D83008A02A2 /* Build configuration list for PBXNativeTarget "NTPCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5675EC1D9B8D83008A02A2 /* Debug */,
+				3A5675ED1D9B8D83008A02A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A5675CD1D9B8D83008A02A2 /* NTPC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A5675CE1D9B8D83008A02A2 /* NTPC.xcdatamodel */,
+			);
+			currentVersion = 3A5675CE1D9B8D83008A02A2 /* NTPC.xcdatamodel */;
+			path = NTPC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A5675BE1D9B8D83008A02A2 /* Project object */;
+}
